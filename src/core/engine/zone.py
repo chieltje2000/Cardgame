@@ -1,5 +1,6 @@
 """Zone and deck types for the engine."""
 
+
 class Zone:
     """A container for cards (e.g., hand, deck, discard, battlefield).
 

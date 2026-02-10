@@ -1,5 +1,6 @@
 """Randomness interface for the engine."""
 
+
 class RNG:
     """Provides randomness in a controllable/testable way.
 

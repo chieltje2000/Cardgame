@@ -1,5 +1,6 @@
 """Event types for the engine."""
 
+
 class Event:
     """Represents a fact that happened as a result of applying an action.
 

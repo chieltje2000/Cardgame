@@ -1,5 +1,6 @@
 """Observation types for the engine."""
 
+
 class Observation:
     """A view of the current state for a specific actor (what they are allowed to see).
 

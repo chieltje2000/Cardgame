@@ -1,5 +1,6 @@
 """Effect types for the engine."""
 
+
 class Effect:
     """Represents a reusable effect that may be attached to cards or rules.
 
