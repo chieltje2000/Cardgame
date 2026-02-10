@@ -8,11 +8,15 @@ Early scaffold (v0.0.0). Project structure, tooling and tests are set up.
 
 ## Dev setup
 
-Create venv and install dependencies:
+Create a virtual environment and install the project (editable) with dev tools:
 
 ```bash
 python -m venv .venv
-# Windows:
+
+# Windows (PowerShell / CMD):
 .venv\Scripts\activate
-pip install -e .
-pip install pytest ruff
+
+# macOS/Linux:
+# source .venv/bin/activate
+
+pip install -e ".[dev]"
