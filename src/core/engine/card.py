@@ -1,3 +1,5 @@
+"""Card types for the engine."""
+
 class Card:
     """Represents a card entity (playing card or custom/trading card).
 

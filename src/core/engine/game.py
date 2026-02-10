@@ -1,3 +1,5 @@
+"""Game definition interface for the engine."""
+
 class Game:
     """Game definition: rules + flow decisions.
 

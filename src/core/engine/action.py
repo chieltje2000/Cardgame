@@ -1,3 +1,5 @@
+"""Action types for the engine."""
+
 class Action:
     """Represents an intent by an actor to change the game.
 

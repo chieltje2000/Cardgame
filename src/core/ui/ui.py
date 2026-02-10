@@ -1,3 +1,7 @@
+"""UI interface definitions."""
+
+from __future__ import annotations
+
 from abc import ABC, abstractmethod
 from typing import Any
 
@@ -25,5 +29,5 @@ class UI(ABC):
         raise NotImplementedError
 
     def render_terminal(self, outcome: Any) -> None:
-        """Optional: render terminal outcome (placeholder)."""
+        """Render the terminal outcome (placeholder)."""
         return None

@@ -1,3 +1,5 @@
+"""Engine package public API."""
+
 from .action import Action
 from .actor import Actor
 from .card import Card, EffectCard
