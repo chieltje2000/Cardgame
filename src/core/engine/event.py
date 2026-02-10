@@ -5,4 +5,3 @@ class Event:
     - encode UI rendering
     - contain hidden mutation logic
     """
-    
