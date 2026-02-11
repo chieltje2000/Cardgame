@@ -22,6 +22,12 @@ def test_public_engine_imports():
     )
 
 
+def test_public_engine_action_exports():
+    from core.engine import Action, ActorAction, SystemAction
+
+    _ = (Action, ActorAction, SystemAction)
+
+
 def test_public_ui_imports():
     import core.ui as ui
 

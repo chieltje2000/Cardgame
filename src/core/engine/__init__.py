@@ -1,6 +1,6 @@
 """Engine package public API."""
 
-from .action import Action
+from .action import Action, ActorAction, SystemAction
 from .actor import Actor
 from .card import Card, EffectCard
 from .effect import Effect
@@ -12,6 +12,8 @@ from .zone import Deck, Zone
 
 __all__ = [
     "Action",
+    "ActorAction",
+    "SystemAction",
     "Actor",
     "Card",
     "Deck",
