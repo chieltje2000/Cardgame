@@ -1,5 +1,7 @@
 """Game definition interface for the engine."""
 
+from .request import Request
+
 
 class Game:
     """Game definition: rules + flow decisions.
@@ -13,3 +15,11 @@ class Game:
     - perform UI rendering
     - orchestrate the engine loop
     """
+
+    def next_request(self) -> Request:
+        """Return the next request.
+
+        Must return an instance of one of the Request subtypes
+        (InputRequest, SystemActionRequest, TerminalRequest).
+        """
+        raise NotImplementedError

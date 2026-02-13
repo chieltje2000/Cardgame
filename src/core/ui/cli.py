@@ -1,9 +1,7 @@
 """CLI UI implementation (stub)."""
 
-from __future__ import annotations
-
-from core.engine import Action, Observation
-from core.engine.action import ActorAction
+from core.engine.action import Action, ActorAction
+from core.engine.observation import Observation
 
 from .ui import UI
 

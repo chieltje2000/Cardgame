@@ -1,12 +1,10 @@
 """UI interface definitions."""
 
-from __future__ import annotations
-
 from abc import ABC, abstractmethod
 from typing import Any
 
-from core.engine import Action, Observation
-from core.engine.action import ActorAction
+from core.engine.action import Action, ActorAction
+from core.engine.observation import Observation
 
 
 class UI(ABC):
