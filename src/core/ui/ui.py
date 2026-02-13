@@ -6,6 +6,7 @@ from abc import ABC, abstractmethod
 from typing import Any
 
 from core.engine import Action, Observation
+from core.engine.action import ActorAction
 
 
 class UI(ABC):
@@ -24,8 +25,8 @@ class UI(ABC):
         raise NotImplementedError
 
     @abstractmethod
-    def choose_action(self, options: list[Action]) -> Action:
-        """Choose one action from a list of legal options."""
+    def choose_action(self, options: list[ActorAction]) -> Action:
+        """Choose one ActorAction from a list of legal options."""
         raise NotImplementedError
 
     def render_terminal(self, outcome: Any) -> None:

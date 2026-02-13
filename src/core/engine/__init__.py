@@ -7,6 +7,7 @@ from .effect import Effect
 from .event import Event
 from .game import Game
 from .observation import Observation
+from .request import InputRequest, SystemActionRequest, TerminalRequest
 from .rng import RNG
 from .zone import Deck, Zone
 
@@ -22,6 +23,9 @@ __all__ = [
     "Event",
     "Game",
     "Observation",
+    "InputRequest",
+    "SystemActionRequest",
+    "TerminalRequest",
     "RNG",
     "Zone",
 ]

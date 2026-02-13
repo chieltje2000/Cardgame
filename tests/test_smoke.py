@@ -28,6 +28,12 @@ def test_public_engine_action_exports():
     _ = (Action, ActorAction, SystemAction)
 
 
+def test_public_engine_request_exports():
+    from core.engine import InputRequest, SystemActionRequest, TerminalRequest
+
+    _ = (InputRequest, SystemActionRequest, TerminalRequest)
+
+
 def test_public_ui_imports():
     import core.ui as ui
 
